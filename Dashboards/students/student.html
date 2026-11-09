@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard | Figure It Out</title>
+
+    <link rel="stylesheet" href="student.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon">
+                <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <div>
+                <h2>FIGURE<span> IT OUT</span></h2>
+                <small>LEARNING PLATFORM</small>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <p class="sidebar-heading">MAIN MENU</p>
+
+            <a href="#overview" class="nav-link active">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+            </a>
+
+            <a href="#subjects" class="nav-link">
+                <i class="fa-solid fa-book-open"></i>
+                <span>My Subjects</span>
+            </a>
+
+            <a href="#challenges" class="nav-link">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Challenges</span>
+            </a>
+
+            <a href="#assignedChallenges" class="nav-link">
+                <i class="fa-solid fa-clipboard-list"></i>
+                <span>Teacher Challenges</span>
+            </a>
+
+            <a href="#progress" class="nav-link">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>My Progress</span>
+            </a>
+
+            <a href="#achievements" class="nav-link">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Achievements</span>
+            </a>
+        </div>
+
+        <div class="sidebar-section">
+            <p class="sidebar-heading">ACCOUNT</p>
+
+            <a href="#notifications" class="nav-link">
+                <i class="fa-regular fa-bell"></i>
+                <span>Notifications</span>
+            </a>
+
+            <a href="#settings" class="nav-link">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </a>
+        </div>
+
+        <div class="sidebar-bottom">
+            <div class="help-card">
+                <i class="fa-solid fa-circle-question"></i>
+                <h4>Need some help?</h4>
+                <p>Get assistance with your learning journey.</p>
+                <button type="button" id="helpBtn">Get Help</button>
+            </div>
+
+            <button class="logout-btn" id="logoutBtn">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span>Log Out</span>
+            </button>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content" id="overview">
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="page-title">
+                <h1>Student Dashboard</h1>
+                <p>Welcome back! Ready to learn something new?</p>
+            </div>
+
+            <div class="topbar-actions">
+
+                <button class="icon-button" id="notificationBtn" aria-label="Notifications">
+                    <i class="fa-regular fa-bell"></i>
+                    <span class="notification-dot"></span>
+                </button>
+
+                <div class="profile" id="profileBtn">
+                    <div class="avatar">S</div>
+
+                    <div class="profile-info">
+                        <h4 id="studentName">Student</h4>
+                        <small>Student Account</small>
+                    </div>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- WELCOME BANNER -->
+        <section class="welcome-banner">
+
+            <div class="welcome-content">
+                <span class="welcome-label">YOUR LEARNING JOURNEY</span>
+
+                <h2>Learn. Practice. <span>Become Excellent.</span></h2>
+
+                <p>
+                    Every challenge is an opportunity to improve.
+                    Keep learning and discover what you are capable of.
+                </p>
+
+                <button type="button" id="startLearningBtn" class="primary-btn gold-start-btn">
+                    <span class="icon-arrow" aria-hidden="true">→</span>
+                    START LEARNING
+                </button>
+            </div>
+
+            <div class="welcome-art">
+                <div class="art-circle">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="floating-icon icon-one">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <div class="floating-icon icon-two">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="floating-icon icon-three">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- STATISTICS -->
+        <section class="stats-grid" id="progress">
+
+            <div class="stat-card">
+                <div class="stat-icon purple">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+
+                <div>
+                    <p>Available Subjects</p>
+                    <h2 id="subjectCount">--</h2>
+                    <small>Subjects in the question bank</small>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon blue">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+
+                <div>
+                    <p>Challenges Completed</p>
+                    <h2 id="challengeCount">0</h2>
+                    <small>Your completed challenges</small>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon orange">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div>
+                    <p>Total Points</p>
+                    <h2 id="totalPoints">0</h2>
+                    <small>Your learning points</small>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon green">
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+
+                <div>
+                    <p>Learning Streak</p>
+                    <h2 id="learningStreak">0 Days</h2>
+                    <small>Consecutive learning days</small>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- SUBJECTS -->
+        <section class="content-section" id="subjects">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Explore Your Subjects</h2>
+                    <p>Choose a subject and challenge your knowledge.</p>
+                </div>
+
+                <span class="section-count" id="subjectLabel">
+                    Loading subjects...
+                </span>
+            </div>
+
+            <div class="subject-tools">
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="search"
+                        id="subjectSearch"
+                        placeholder="Search subjects..."
+                    >
+                </div>
+
+                <select id="difficultyFilter">
+                    <option value="all">All Difficulties</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+
+            </div>
+
+            <div class="subjects-grid" id="subjectsGrid">
+
+                <div class="loading-state">
+                    <i class="fa-solid fa-spinner fa-spin"></i>
+                    <p>Loading your subjects...</p>
+                </div>
+
+            </div>
+
+            <p class="empty-message" id="subjectEmpty" hidden>
+                No subjects found. Try another search.
+            </p>
+
+        </section>
+
+        <section class="content-section" id="assignedChallenges">
+            <div class="section-heading">
+                <div>
+                    <h2>Teacher Challenges</h2>
+                    <p>Challenges shared by teachers at your school.</p>
+                </div>
+            </div>
+            <div class="subjects-grid" id="assignedQuizGrid"></div>
+            <p class="empty-message" id="assignedQuizEmpty">No teacher challenges are available yet.</p>
+        </section>
+
+
+        <!-- CHALLENGES -->
+        <section class="content-section" id="challenges">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Quick Challenges</h2>
+                    <p>Choose your difficulty and test yourself.</p>
+                </div>
+            </div>
+
+            <div class="challenge-grid">
+
+                <div class="challenge-card easy-card">
+                    <div class="challenge-icon">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+
+                    <span class="difficulty easy">EASY</span>
+
+                    <h3>Beginner Challenge</h3>
+
+                    <p>Build your confidence with beginner-friendly questions.</p>
+
+                    <button class="challenge-btn" data-difficulty="easy">
+                        Start Challenge
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="challenge-card medium-card">
+                    <div class="challenge-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+
+                    <span class="difficulty medium">MEDIUM</span>
+
+                    <h3>Intermediate Challenge</h3>
+
+                    <p>Improve your skills with more challenging questions.</p>
+
+                    <button class="challenge-btn" data-difficulty="medium">
+                        Start Challenge
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="challenge-card hard-card">
+                    <div class="challenge-icon">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                    </div>
+
+                    <span class="difficulty hard">HARD</span>
+
+                    <h3>Expert Challenge</h3>
+
+                    <p>Push your knowledge with advanced questions.</p>
+
+                    <button class="challenge-btn" data-difficulty="hard">
+                        Start Challenge
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACHIEVEMENTS AND ACTIVITY -->
+        <section class="bottom-grid">
+
+            <div class="content-section achievement-section" id="achievements">
+
+                <div class="section-heading">
+                    <div>
+                        <h2>Achievements</h2>
+                        <p>Celebrate your learning milestones.</p>
+                    </div>
+                </div>
+
+                <div class="achievement-list" id="achievementList">
+
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-medal"></i>
+                        </div>
+
+                        <div>
+                            <h4>First Steps</h4>
+                            <p>Complete your first challenge.</p>
+                        </div>
+
+                        <span class="achievement-status">Locked</span>
+                    </div>
+
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+
+                        <div>
+                            <h4>Knowledge Seeker</h4>
+                            <p>Explore five different subjects.</p>
+                        </div>
+
+                        <span class="achievement-status">Locked</span>
+                    </div>
+
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-crown"></i>
+                        </div>
+
+                        <div>
+                            <h4>High Achiever</h4>
+                            <p>Earn 1,000 learning points.</p>
+                        </div>
+
+                        <span class="achievement-status">Locked</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-section activity-section">
+
+                <div class="section-heading">
+                    <div>
+                        <h2>Recent Activity</h2>
+                        <p>Your latest learning activities.</p>
+                    </div>
+                </div>
+
+                <div class="activity-list" id="activityList">
+
+                    <div class="activity-empty">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <p>Your learning activity will appear here.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="dashboard-footer">
+            <p>© 2026 Figure It Out. Learn something extraordinary.</p>
+
+            <div>
+                <a href="#overview">Dashboard</a>
+                <a href="#subjects">Subjects</a>
+                <a href="#settings">Settings</a>
+            </div>
+        </footer>
+
+    </main>
+
+</div>
+
+
+<!-- CHALLENGE SETUP MODAL -->
+<div class="modal-overlay" id="challengeModal">
+
+    <div class="modal">
+
+        <button class="modal-close" id="closeModal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="modal-icon">
+            <i class="fa-solid fa-gamepad"></i>
+        </div>
+
+        <h2>Set Up Your Challenge</h2>
+
+        <p>Choose your subject and get ready to test your knowledge.</p>
+
+        <form id="challengeForm">
+
+            <label for="challengeSubject">Select Subject</label>
+
+            <select id="challengeSubject" required>
+                <option value="">Choose a subject</option>
+            </select>
+
+            <label for="challengeDifficulty">Difficulty</label>
+
+            <select id="challengeDifficulty" required>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+
+            <label for="questionLimit">Number of Questions</label>
+
+            <select id="questionLimit">
+                <option value="10">10 Questions</option>
+                <option value="20">20 Questions</option>
+                <option value="30">30 Questions</option>
+                <option value="50">50 Questions</option>
+            </select>
+
+            <button type="submit" class="modal-submit">
+                Start Learning
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<div class="toast" id="toast"></div>
+
+
+<script src="student.js"></script>
+
+</body>
+</html>

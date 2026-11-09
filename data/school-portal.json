@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "e2bc3004-6365-45ad-be58-742382dd6fd7",
+      "email": "admin@figureitout.test",
+      "fullName": "School administrator",
+      "role": "admin",
+      "status": "active",
+      "schoolId": null,
+      "salt": "39383140327f11c0e7854db6c85af7fa",
+      "passwordHash": "52b8e47568b08b855f473288acd68ae696a27e511246136f17b092c45d9fc691af38afc82e310823cebe10d84edfc422ce73a084c83c0bcbc1ec2075e3d11269",
+      "createdAt": "2026-11-02T09:00:00.595Z"
+    },
+    {
+      "id": "7eed6b31-8e4e-43ed-bc86-d69349f57765",
+      "email": "admin@figureitout.local",
+      "fullName": "School administrator",
+      "role": "admin",
+      "status": "active",
+      "schoolId": null,
+      "salt": "9f8a7f06cc8b6e0d8eec08953d78425b",
+      "passwordHash": "b556064a113bb4933e1594d5889be90b83d503ed34f4560adf4560fdda56fcb459b3bd597f28072b3f0d01664a763cc18f7737d68ebced945673ddb428cf833d",
+      "createdAt": "2026-11-03T07:20:42.114Z"
+    },
+    {
+      "id": "dfecac6b-3f6e-4a46-86b9-974e5da6e2b4",
+      "email": "teststudent@example.com",
+      "fullName": "Test Student",
+      "role": "independent",
+      "status": "active",
+      "schoolId": null,
+      "stream": "",
+      "className": "",
+      "salt": "504cd86254702ec38261c6698889ec8a",
+      "passwordHash": "f3f82c69169442fb16dc40277a5a40fd8e8214ee38865b5b5503e9935c7aaaf74f4f322bd02d2abb194f0f4097494a5e040ac487f8f90d316f68809021987b4f",
+      "createdAt": "2026-11-04T04:36:39.500Z"
+    }
+  ],
+  "schools": []
+}

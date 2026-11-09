@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In | Figure It Out</title>
+    <meta http-equiv="refresh" content="0; url=/login.html">
+    <script>window.location.replace('/login.html');</script>
+</head>
+<body>
+
+    <main class="auth-container">
+
+        <section class="auth-visual">
+            <div class="brand">
+                <span class="brand-icon">F</span>
+                <span>FIGURE IT OUT</span>
+            </div>
+
+            <div class="visual-content">
+                <span class="eyebrow">LEARN. PLAY. GROW.</span>
+                <h1>Your next level<br>starts <span>here.</span></h1>
+                <p>
+                    Challenge your knowledge, explore new subjects,
+                    and discover what you are capable of.
+                </p>
+
+                <div class="visual-card">
+                    <div class="visual-icon">✦</div>
+                    <div>
+                        <strong>Knowledge is power.</strong>
+                        <p>Every question brings you closer to mastery.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visual-footer">
+                © 2026 Figure It Out. All rights reserved.
+            </div>
+        </section>
+
+        <section class="auth-form-section">
+
+            <div class="mobile-brand">
+                <span class="brand-icon">F</span>
+                <strong>FIGURE IT OUT</strong>
+            </div>
+
+            <div class="auth-form-wrapper">
+
+                <span class="eyebrow">WELCOME BACK</span>
+                <h2>Log in to your account</h2>
+                <p class="form-description">
+                    Enter your details to continue your learning journey.
+                </p>
+
+                <form id="loginForm">
+
+                    <label for="role">Account type</label>
+                    <select id="role" name="role" required>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="independent">Independent learner</option>
+                        <option value="admin">Administrator</option>
+                    </select>
+
+                    <label for="email">Email address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="username"
+                        required
+                    >
+
+                    <label for="password">Password</label>
+                    <div class="password-wrapper">
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            required
+                        >
+                        <button type="button" id="togglePassword">
+                            Show
+                        </button>
+                    </div>
+
+                    <div class="form-options">
+                        <span>Secure account access</span>
+                        <a href="#" id="forgotPassword">Forgot password?</a>
+                    </div>
+
+                    <p id="loginMessage" class="message" role="status" aria-live="polite"></p>
+
+                    <button type="submit" id="loginButton" class="primary-button">
+                        <span id="buttonText">LOG IN</span>
+                    </button>
+
+                </form>
+
+                <p class="switch-auth">
+                    Don't have an account?
+                    <a href="register.html">Create one</a>
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>

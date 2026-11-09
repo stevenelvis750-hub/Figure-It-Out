@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finishing sign-in | Figure It Out</title>
+    <link rel="stylesheet" href="/auth.css">
+    <script src="/oauth.js" defer></script>
+</head>
+<body>
+    <main class="auth-container">
+        <section class="auth-form-section" style="grid-column: 1 / -1;">
+            <div class="auth-form-wrapper">
+                <span class="eyebrow">FIGURE IT OUT</span>
+                <h2>Finishing sign-in</h2>
+                <p id="oauthStatus" class="form-description" role="status" aria-live="polite">
+                    Please wait while we securely verify your account.
+                </p>
+                <a id="oauthLoginLink" href="/login.html" hidden>Return to sign in</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

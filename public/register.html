@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | Figure It Out</title>
+    <link rel="stylesheet" href="auth.css">
+    <script src="oauth.js" defer></script>
+    <script src="register.js" defer></script>
+</head>
+<body>
+
+    <main class="auth-container">
+
+        <section class="auth-visual">
+            <div class="brand">
+                <span class="brand-icon">F</span>
+                <span>FIGURE IT OUT</span>
+            </div>
+
+            <div class="visual-content">
+                <span class="eyebrow">YOUR JOURNEY BEGINS</span>
+                <h1>Build your<br><span>future.</span></h1>
+                <p>
+                    Create your account and unlock a world of
+                    learning, challenges, and opportunities.
+                </p>
+
+                <div class="visual-card">
+                    <div class="visual-icon">✦</div>
+                    <div>
+                        <strong>One platform. Endless possibilities.</strong>
+                        <p>Learn at your own pace and grow every day.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visual-footer">
+                © 2026 Figure It Out. All rights reserved.
+            </div>
+        </section>
+
+        <section class="auth-form-section">
+
+            <div class="mobile-brand">
+                <span class="brand-icon">F</span>
+                <strong>FIGURE IT OUT</strong>
+            </div>
+
+            <div class="auth-form-wrapper">
+
+                <span class="eyebrow">JOIN FIGURE IT OUT</span>
+                <h2>Create your account</h2>
+                <p class="form-description">
+                    Fill in your details to get started.
+                </p>
+
+                <form id="registerForm">
+
+                    <label for="fullName">Full name</label>
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Enter your full name"
+                        minlength="2"
+                        maxlength="80"
+                        autocomplete="name"
+                        required
+                    >
+
+                    <label for="email">Email address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required
+                    >
+
+                    <label for="role">I am registering as</label>
+                    <select id="role" name="role" required>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="independent">Independent learner</option>
+                    </select>
+
+                    <div id="schoolFields">
+
+                        <label for="schoolCode">School code</label>
+                        <input
+                            type="text"
+                            id="schoolCode"
+                            name="schoolCode"
+                            placeholder="Enter your school's code"
+                        >
+
+                    </div>
+
+                    <div id="studentFields">
+
+                        <label for="className">Class / Level</label>
+                        <input
+                            type="text"
+                            id="className"
+                            name="className"
+                            placeholder="e.g. Form 3, Grade 9, Diploma"
+                        >
+
+                        <label for="stream">Stream (optional)</label>
+                        <input
+                            type="text"
+                            id="stream"
+                            name="stream"
+                            placeholder="e.g. North, East, Science"
+                        >
+
+                    </div>
+
+                    <label for="password">Create password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="At least 10 characters"
+                        minlength="10"
+                        maxlength="128"
+                        autocomplete="new-password"
+                        required
+                    >
+
+                    <label for="confirmPassword">Confirm password</label>
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        name="confirmPassword"
+                        placeholder="Enter your password again"
+                        minlength="10"
+                        maxlength="128"
+                        autocomplete="new-password"
+                        required
+                    >
+
+                    <p id="registerMessage" class="message" role="status" aria-live="polite"></p>
+
+                    <button type="submit" id="registerButton" class="primary-button">
+                        CREATE ACCOUNT
+                    </button>
+
+                </form>
+
+                <div class="social-auth" aria-label="Alternative account creation methods">
+                    <span class="social-divider">or sign up with</span>
+                    <button class="social-button" type="button" data-oauth-provider="google">Sign up with Google</button>
+                    <button class="social-button" type="button" data-oauth-provider="apple">Sign up with Apple</button>
+                </div>
+
+                <p class="switch-auth">
+                    Already have an account?
+                    <a href="login.html">Sign in</a>
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>

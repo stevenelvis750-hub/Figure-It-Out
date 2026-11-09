@@ -1,0 +1,1086 @@
+{
+  "course": "Database System",
+  "version": 2,
+  "questions": [
+    {
+      "id": "database-system-easy-01",
+      "difficulty": "easy",
+      "question": "Easy 1: Why is learning Database System important for problem solving?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-02",
+      "difficulty": "easy",
+      "question": "Easy 2: What is the main value of studying Database System in community work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-03",
+      "difficulty": "easy",
+      "question": "Easy 3: Which reason best explains why Database System matters in everyday life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-04",
+      "difficulty": "easy",
+      "question": "Easy 4: How does Database System help learners become more effective in problem solving?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-05",
+      "difficulty": "easy",
+      "question": "Easy 5: What is the best benefit of learning Database System for a learner in service work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-06",
+      "difficulty": "easy",
+      "question": "Easy 6: Which statement best shows why Database System is useful for responsible decision-making?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-07",
+      "difficulty": "easy",
+      "question": "Easy 7: How can Database System help someone improve in research work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-08",
+      "difficulty": "easy",
+      "question": "Easy 8: Why should learners pay attention to Database System in daily life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-09",
+      "difficulty": "easy",
+      "question": "Easy 9: Which outcome is most closely linked with learning Database System?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-10",
+      "difficulty": "easy",
+      "question": "Easy 10: How does Database System support better decisions in home tasks?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-11",
+      "difficulty": "easy",
+      "question": "Easy 11: Why do people value Database System in daily learning and work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-12",
+      "difficulty": "easy",
+      "question": "Easy 12: Which idea best explains the importance of Database System?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-13",
+      "difficulty": "easy",
+      "question": "Easy 13: What does a learner gain from understanding Database System in public service?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-14",
+      "difficulty": "easy",
+      "question": "Easy 14: Why is Database System useful when solving problems in everyday decisions?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-15",
+      "difficulty": "easy",
+      "question": "Easy 15: What is the clearest advantage of learning Database System?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-16",
+      "difficulty": "easy",
+      "question": "Easy 16: How does Database System help learners prepare for real situations?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-17",
+      "difficulty": "easy",
+      "question": "Easy 17: Why is knowledge of Database System helpful in learning routines?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-18",
+      "difficulty": "easy",
+      "question": "Easy 18: Which skill becomes stronger when a learner studies Database System?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-19",
+      "difficulty": "easy",
+      "question": "Easy 19: How does Database System affect practical performance in technology use?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-20",
+      "difficulty": "easy",
+      "question": "Easy 20: Why does Database System matter for future success in business tasks?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-21",
+      "difficulty": "easy",
+      "question": "Easy 21: Which reason best explains the role of Database System in everyday life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-22",
+      "difficulty": "easy",
+      "question": "Easy 22: What makes Database System useful in community work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-23",
+      "difficulty": "easy",
+      "question": "Easy 23: Why should students take Database System seriously in modern workplaces?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-24",
+      "difficulty": "easy",
+      "question": "Easy 24: How is Database System connected to everyday practice in problem solving?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-25",
+      "difficulty": "easy",
+      "question": "Easy 25: What is the strongest reason to learn Database System?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-26",
+      "difficulty": "easy",
+      "question": "Easy 26: Why is Database System important for people who work in field practice?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-27",
+      "difficulty": "easy",
+      "question": "Easy 27: Which statement best describes the value of Database System?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-28",
+      "difficulty": "easy",
+      "question": "Easy 28: How does understanding Database System improve daily choices in daily life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-29",
+      "difficulty": "easy",
+      "question": "Easy 29: What benefit is gained from studying Database System regularly?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-easy-30",
+      "difficulty": "easy",
+      "question": "Easy 30: Why is Database System relevant in modern life and home tasks?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-01",
+      "difficulty": "medium",
+      "question": "Medium 1: Which strategy best improves a learner's understanding of Database System in schoolwork?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-02",
+      "difficulty": "medium",
+      "question": "Medium 2: How does practical application of Database System help a learner in community work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-03",
+      "difficulty": "medium",
+      "question": "Medium 3: Which approach shows strong thinking when using Database System in real situations?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-04",
+      "difficulty": "medium",
+      "question": "Medium 4: Why is consistent practice important when studying Database System for problem solving?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-05",
+      "difficulty": "medium",
+      "question": "Medium 5: Which statement best explains how Database System supports real-world practice?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-06",
+      "difficulty": "medium",
+      "question": "Medium 6: How does Database System improve a learner's ability to handle field practice?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-07",
+      "difficulty": "medium",
+      "question": "Medium 7: Which example shows the best use of Database System in everyday practice?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-08",
+      "difficulty": "medium",
+      "question": "Medium 8: Why is Database System linked to better judgment in daily life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-09",
+      "difficulty": "medium",
+      "question": "Medium 9: What is the strongest reason to study Database System with attention to confidence?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-10",
+      "difficulty": "medium",
+      "question": "Medium 10: Which skill is most improved by learning Database System in real situations?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-11",
+      "difficulty": "medium",
+      "question": "Medium 11: How does understanding Database System make work in career planning more effective?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-12",
+      "difficulty": "medium",
+      "question": "Medium 12: Why is Database System valuable when planning and evaluating project work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-13",
+      "difficulty": "medium",
+      "question": "Medium 13: Which statement best describes a mature understanding of Database System?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-14",
+      "difficulty": "medium",
+      "question": "Medium 14: How does Database System help students move from memorising to applying knowledge in everyday decisions?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-15",
+      "difficulty": "medium",
+      "question": "Medium 15: Why is analysis important when learning Database System for future careers?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-16",
+      "difficulty": "medium",
+      "question": "Medium 16: Which action shows the most responsible use of Database System?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-17",
+      "difficulty": "medium",
+      "question": "Medium 17: How does Database System contribute to better outcomes in learning routines?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-18",
+      "difficulty": "medium",
+      "question": "Medium 18: Which idea best shows how Database System supports problem solving in classroom activities?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-19",
+      "difficulty": "medium",
+      "question": "Medium 19: Why does practical exposure to Database System matter for learners in technology use?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-20",
+      "difficulty": "medium",
+      "question": "Medium 20: Which response shows the strongest understanding of Database System in the real world?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-21",
+      "difficulty": "medium",
+      "question": "Medium 21: How can learners use Database System to improve quality in schoolwork?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-22",
+      "difficulty": "medium",
+      "question": "Medium 22: Which statement best explains the link between Database System and critical thinking?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-23",
+      "difficulty": "medium",
+      "question": "Medium 23: Why should a learner connect Database System with everyday challenges in modern workplaces?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-24",
+      "difficulty": "medium",
+      "question": "Medium 24: What does good practice in Database System look like in problem solving?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-25",
+      "difficulty": "medium",
+      "question": "Medium 25: Which reason best supports the value of learning Database System deeply?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-26",
+      "difficulty": "medium",
+      "question": "Medium 26: How does Database System help people make sound choices in field practice?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-27",
+      "difficulty": "medium",
+      "question": "Medium 27: Which approach shows intelligent application of Database System in real work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-28",
+      "difficulty": "medium",
+      "question": "Medium 28: Why is Database System important when evaluating decisions in daily life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-29",
+      "difficulty": "medium",
+      "question": "Medium 29: Which example best reflects the power of Database System in daily life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-medium-30",
+      "difficulty": "medium",
+      "question": "Medium 30: How does Database System build long-term competence in home tasks?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-01",
+      "difficulty": "hard",
+      "question": "Hard 1: Evaluate the impact of Database System on problem solving within schoolwork. Which conclusion is strongest?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-02",
+      "difficulty": "hard",
+      "question": "Hard 2: Which argument best shows why Database System is essential for sustainable progress in community work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-03",
+      "difficulty": "hard",
+      "question": "Hard 3: A learner who connects Database System to career readiness is most likely demonstrating which quality?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-04",
+      "difficulty": "hard",
+      "question": "Hard 4: How does mastery of Database System improve decision-making in problem solving and beyond?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-05",
+      "difficulty": "hard",
+      "question": "Hard 5: Which explanation most clearly shows the long-term value of Database System in service work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-06",
+      "difficulty": "hard",
+      "question": "Hard 6: Why is deeper understanding of Database System more valuable than memorising facts in field practice?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-07",
+      "difficulty": "hard",
+      "question": "Hard 7: In what way does Database System strengthen responsible judgment in research work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-08",
+      "difficulty": "hard",
+      "question": "Hard 8: Which response best evaluates the role of Database System in improving practical understanding?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-09",
+      "difficulty": "hard",
+      "question": "Hard 9: How can Database System support innovation and quality in team projects?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-10",
+      "difficulty": "hard",
+      "question": "Hard 10: Which statement best captures the relationship between Database System and effective practice in home tasks?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-11",
+      "difficulty": "hard",
+      "question": "Hard 11: Why is it important to apply Database System critically when handling career planning?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-12",
+      "difficulty": "hard",
+      "question": "Hard 12: What is the strongest evidence that Database System influences performance in project work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-13",
+      "difficulty": "hard",
+      "question": "Hard 13: Which insight best reflects the value of Database System for real-world problem solving?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-14",
+      "difficulty": "hard",
+      "question": "Hard 14: How does sustained study of Database System change a learner's ability to manage everyday decisions?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-15",
+      "difficulty": "hard",
+      "question": "Hard 15: Which conclusion is most justified when comparing Database System to shallow memory in future careers?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-16",
+      "difficulty": "hard",
+      "question": "Hard 16: What role does Database System play in building reliable skills for real situations?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-17",
+      "difficulty": "hard",
+      "question": "Hard 17: Which analysis best demonstrates the practical power of Database System in modern life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-18",
+      "difficulty": "hard",
+      "question": "Hard 18: Why is Database System a necessary foundation for serious work in classroom activities?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-19",
+      "difficulty": "hard",
+      "question": "Hard 19: Which statement best shows how Database System improves reliability and thinking in technology use?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-20",
+      "difficulty": "hard",
+      "question": "Hard 20: How can Database System help a learner move from basic understanding to advanced practice in business tasks?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-21",
+      "difficulty": "hard",
+      "question": "Hard 21: Which insight best explains why Database System deserves consistent attention in schoolwork?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-22",
+      "difficulty": "hard",
+      "question": "Hard 22: What makes critical engagement with Database System more useful than simple repetition in community work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-23",
+      "difficulty": "hard",
+      "question": "Hard 23: Which answer best captures the relationship between Database System and quality outcomes in modern workplaces?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-24",
+      "difficulty": "hard",
+      "question": "Hard 24: Why is a thoughtful understanding of Database System important for leadership and service in problem solving?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-25",
+      "difficulty": "hard",
+      "question": "Hard 25: Which claim most strongly supports the value of Database System in complex real-world settings?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-26",
+      "difficulty": "hard",
+      "question": "Hard 26: How does Database System improve the quality of reasoning in field practice?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-27",
+      "difficulty": "hard",
+      "question": "Hard 27: Which outcome most clearly reflects the value of applying Database System well in research work?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-28",
+      "difficulty": "hard",
+      "question": "Hard 28: How does structured study of Database System lead to sounder decisions in daily life?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-29",
+      "difficulty": "hard",
+      "question": "Hard 29: Which evaluation best justifies continued learning in Database System for team projects?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    },
+    {
+      "id": "database-system-hard-30",
+      "difficulty": "hard",
+      "question": "Hard 30: Why is Database System essential for long-term professional and personal progress in home tasks?",
+      "options": [
+        "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life.",
+        "It makes Database System unnecessary once a learner remembers a few facts.",
+        "It removes the need for effort, practice, and careful thinking in Database System.",
+        "It prevents learners from using Database System in daily work or future careers."
+      ],
+      "answer": "It helps learners apply Database System in practical situations, improve understanding, and support better decisions in real life."
+    }
+  ]
+}

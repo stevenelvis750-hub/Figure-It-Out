@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Figure It Out</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+        <div class="logo">
+            FIGURE<span>IT</span>OUT
+        </div>
+
+        <div class="nav-status">
+            <span class="status-dot"></span>
+            Learning Mode
+        </div>
+
+        <div class="navbar-actions">
+            <a class="login-link" href="/login.html">Login</a>
+            <a class="teacher-link" href="/Dashboards/students/student.html">Student Dashboard</a>
+            <a class="teacher-link" href="/Dashboards/teachers/teacher.html">Teacher Dashboard</a>
+            <a class="teacher-link" href="/Dashboards/admin/admin.html">Admin Dashboard</a>
+            <button
+                id="askQuestionNavBtn"
+                type="button"
+                class="nav-btn"
+            >
+                Ask a Question
+            </button>
+        </div>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <main>
+
+        <section id="studentWorkspace" class="student-workspace" hidden></section>
+
+        <section id="homeScreen" class="screen active">
+
+            <div class="hero">
+
+                <div class="hero-badge">
+                    <span class="icon icon-compass" aria-hidden="true"></span>
+                    LEARN <span aria-hidden="true">•</span> PRACTICE <span aria-hidden="true">•</span> MASTER
+                </div>
+
+                <h1>
+                    FIGURE<br>
+                    <span>IT OUT.</span>
+                </h1>
+
+                <p>
+                    Your personal learning and challenge platform.
+                    Choose what you want to learn and test yourself.
+                </p>
+
+                <button id="startBtn" class="primary-btn" type="button">
+                    <span class="icon icon-arrow" aria-hidden="true"></span>
+                    START LEARNING
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SETUP ================= -->
+
+        <section id="setupScreen" class="screen">
+
+            <div class="setup-container">
+
+                <div class="section-heading">
+                    <span>01</span>
+                    <h2>What do you want to learn?</h2>
+                    <p>Choose your learning path.</p>
+                </div>
+
+                <!-- LEARNING PATH -->
+
+                <div class="path-grid">
+
+                    <button class="path-card" data-path="academic">
+
+                        <div class="card-icon icon-book" aria-hidden="true"></div>
+
+                        <h3>Academic</h3>
+
+                        <p>
+                            School, college and university
+                            subjects.
+                        </p>
+
+                        <span>EXPLORE →</span>
+
+                    </button>
+
+
+                    <button class="path-card" data-path="technical">
+
+                        <div class="card-icon icon-tools" aria-hidden="true"></div>
+
+                        <h3>Technical & TVET</h3>
+
+                        <p>
+                            Practical, technical and
+                            vocational skills.
+                        </p>
+
+                        <span>EXPLORE →</span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- LEVEL -->
+
+                <div id="levelSection" class="selection-section hidden">
+
+                    <div class="section-heading">
+                        <span>02</span>
+                        <h2>Choose your level</h2>
+                    </div>
+
+                    <div id="levelGrid" class="option-grid"></div>
+
+                </div>
+
+
+                <!-- CATEGORY -->
+
+                <div id="categorySection" class="selection-section hidden">
+
+                    <div class="section-heading">
+                        <span>03</span>
+                        <h2>Choose a category</h2>
+                    </div>
+
+                    <div id="categoryGrid" class="option-grid"></div>
+
+                </div>
+
+
+                <!-- COURSE -->
+
+                <div id="courseSection" class="selection-section hidden">
+
+                    <div class="section-heading">
+                        <span>04</span>
+                        <h2>Choose your subject or course</h2>
+                    </div>
+
+                    <input
+                    
+                        type="text"
+                        id="courseSearch"
+                        class="course-search"
+                        placeholder="Search for a subject or course..."
+                    >
+
+                    <div id="courseGrid" class="course-grid"></div>
+
+                </div>
+
+
+                <!-- DIFFICULTY -->
+
+                <div id="difficultySection" class="selection-section hidden">
+
+                    <div class="section-heading">
+                        <span>05</span>
+                        <h2>Choose difficulty</h2>
+                    </div>
+
+                    <div class="difficulty-grid">
+
+                        <button class="difficulty-btn"
+                                data-difficulty="easy">
+                            <span class="difficulty-mark easy-mark" aria-hidden="true"></span> Easy
+                        </button>
+
+                        <button class="difficulty-btn"
+                                data-difficulty="medium">
+                            <span class="difficulty-mark medium-mark" aria-hidden="true"></span> Medium
+                        </button>
+
+                        <button class="difficulty-btn"
+                                data-difficulty="hard">
+                            <span class="difficulty-mark hard-mark" aria-hidden="true"></span> Hard
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div id="challengeLengthSection" class="selection-section hidden">
+                    <div class="section-heading">
+                        <span>06</span>
+                        <h2>How many questions?</h2>
+                        <p>Choose the size of your challenge.</p>
+                    </div>
+
+                    <div class="challenge-length-grid">
+                        <button type="button" class="challenge-length-btn" data-length="10">10</button>
+                        <button type="button" class="challenge-length-btn" data-length="20">20</button>
+                        <button type="button" class="challenge-length-btn selected" data-length="30">30</button>
+                        <button type="button" class="challenge-length-btn" data-length="50">50</button>
+                        <button type="button" class="challenge-length-btn" data-length="100">100</button>
+                    </div>
+                </div>
+
+                <div id="independentTeamSection" class="selection-section hidden">
+                    <div class="section-heading">
+                        <span>07</span>
+                        <h2>Independent student challenge</h2>
+                        <p>Add your team members only when starting the challenge.</p>
+                    </div>
+
+                    <div id="independentTeamMembers" class="team-member-list"></div>
+                    <button id="addIndependentTeamMemberBtn" type="button" class="team-add-btn">+ Add another student</button>
+                </div>
+
+                <!-- START -->
+
+                <button
+                    id="launchBtn"
+                    class="primary-btn launch-btn hidden">
+
+                    <span class="icon icon-play" aria-hidden="true"></span>
+                    START CHALLENGE
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ================= ASK FIGURE IT OUT ================= -->
+
+        <section id="askScreen" class="screen">
+            <div class="ask-container">
+                <div class="ask-header">
+                    <span class="ask-badge">🤖 AI LEARNING ASSISTANT</span>
+                    <h1>Ask Figure It Out</h1>
+                    <p>
+                        Have an academic or educational question?
+                        Ask it and get a clear explanation.
+                    </p>
+                </div>
+
+                <div class="ask-card">
+                    <label for="studentQuestion">
+                        What would you like to learn?
+                    </label>
+
+                    <textarea
+                        id="studentQuestion"
+                        placeholder="Example: Explain photosynthesis in simple terms..."
+                        maxlength="2000"
+                        rows="6"
+                    ></textarea>
+
+                    <div class="ask-controls">
+                        <button id="askQuestionBtn" type="button">
+                            🤖 ASK FIGURE IT OUT
+                        </button>
+                        <button id="clearQuestionBtn" type="button">
+                            CLEAR
+                        </button>
+                    </div>
+
+                    <div id="askLoading" class="ask-loading hidden">
+                        <div class="loading-spinner"></div>
+                        <p>Thinking about your question...</p>
+                    </div>
+
+                    <div id="answerBox" class="answer-box hidden">
+                        <div class="answer-heading">
+                            <span>🤖</span>
+                            <strong>FIGURE IT OUT</strong>
+                        </div>
+                        <div id="answerText"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= QUIZ ================= -->
+
+        <section id="quizScreen" class="screen">
+
+            <div class="quiz-container">
+
+                <div class="quiz-top">
+
+                    <div>
+                        <small>QUESTION</small>
+                        <strong id="questionNumber">1 / 10</strong>
+                    </div>
+
+                    <div class="timer">
+                        <span class="icon icon-clock" aria-hidden="true"></span>
+                        <span id="timer">30</span>s
+                    </div>
+
+                </div>
+
+
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+
+
+                <div class="quiz-card">
+
+                    <span id="questionCategory">
+                        Mathematics
+                    </span>
+                    <span id="academicDiscipline" class="academic-discipline" aria-live="polite"></span>
+
+                    <h2 id="questionText">
+                        Question goes here
+                    </h2>
+
+                    <div id="answers" class="answers"></div>
+
+                    <div id="answerFeedback" class="answer-feedback hidden"></div>
+
+                    <div id="explanationBox" class="explanation-box hidden">
+                        <span class="explanation-label">💡 EXPLANATION</span>
+                        <p id="explanationText"></p>
+                    </div>
+
+                    <div class="quiz-actions">
+                        <button
+                            id="submitAnswerBtn"
+                            class="quiz-action-btn"
+                            type="button"
+                            disabled>
+                            SUBMIT ANSWER
+                        </button>
+
+                        <button
+                            id="nextQuestionBtn"
+                            class="quiz-action-btn hidden"
+                            type="button">
+                            NEXT QUESTION →
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESULTS ================= -->
+
+        <section id="resultScreen" class="screen">
+
+            <div class="result-card">
+
+                <div class="result-icon"> 
+                    <span class="icon icon-trophy" aria-hidden="true"></span>
+                </div>
+
+                <p>CHALLENGE COMPLETE</p>
+
+                <h1 id="finalScore">
+                    0%
+                </h1>
+
+                <h2 id="resultMessage">
+                    Keep learning!
+                </h2>
+                <p id="activityNotice" class="activity-notice" role="status" aria-live="polite"></p>
+
+                <div class="result-stats">
+
+                    <div>
+                        <strong id="correctAnswers">0</strong>
+                        <span>Correct</span>
+                    </div>
+
+                    <div>
+                        <strong id="wrongAnswers">0</strong>
+                        <span>Wrong</span>
+                    </div>
+
+                </div>
+
+                <button
+                    id="restartBtn"
+                    class="primary-btn">
+
+                    <span class="icon icon-refresh" aria-hidden="true"></span>
+                    TRY AGAIN
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>

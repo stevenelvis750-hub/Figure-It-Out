@@ -1,0 +1,647 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figure It Out | Admin Dashboard</title>
+
+    <link rel="stylesheet" href="admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon"><i class="fas fa-brain"></i></div>
+            <div>FIGURE <span>IT OUT</span></div>
+        </div>
+
+        <div class="admin-profile">
+            <div class="admin-avatar">A</div>
+            <div>
+                <h3 id="adminName">Administrator</h3>
+                <p><i class="fas fa-circle"></i> Super Admin</p>
+            </div>
+        </div>
+
+        <p class="menu-label">ADMINISTRATION</p>
+
+        <nav class="navigation">
+            <a href="#overview" class="nav-link active">
+                <i class="fas fa-chart-pie"></i> Overview
+            </a>
+            <a href="#users" class="nav-link">
+                <i class="fas fa-users"></i> User Management
+            </a>
+            <a href="#teachers" class="nav-link">
+                <i class="fas fa-chalkboard-teacher"></i> Teachers
+            </a>
+            <a href="#students" class="nav-link">
+                <i class="fas fa-user-graduate"></i> Students
+            </a>
+            <a href="#subjects" class="nav-link">
+                <i class="fas fa-book-open"></i> Subjects & Courses
+            </a>
+            <a href="#questions" class="nav-link">
+                <i class="fas fa-circle-question"></i> Question Bank
+            </a>
+            <a href="#quizzes" class="nav-link">
+                <i class="fas fa-gamepad"></i> Quiz Management
+            </a>
+        </nav>
+
+        <p class="menu-label">PLATFORM CONTROL</p>
+
+        <nav class="navigation">
+            <a href="#analytics" class="nav-link">
+                <i class="fas fa-chart-line"></i> Analytics
+            </a>
+            <a href="#activity" class="nav-link">
+                <i class="fas fa-clock-rotate-left"></i> Activity Logs
+            </a>
+            <a href="#settings" class="nav-link">
+                <i class="fas fa-gears"></i> System Settings
+            </a>
+            <a href="#" class="nav-link logout" id="logoutBtn">
+                <i class="fas fa-right-from-bracket"></i> Log Out
+            </a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="security-card">
+                <i class="fas fa-shield-halved"></i>
+                <h4>System Control</h4>
+                <p>Manage and protect your learning platform.</p>
+            </div>
+            <p class="version">FIGURE IT OUT ADMIN v1.0</p>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <header class="topbar">
+            <div class="topbar-left">
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="breadcrumb">
+                    <span>Administration</span>
+                    <i class="fas fa-chevron-right"></i>
+                    <strong>Dashboard</strong>
+                </div>
+            </div>
+
+            <div class="topbar-right">
+                <button class="icon-button" id="notificationBtn">
+                    <i class="far fa-bell"></i>
+                    <span class="notification-dot"></span>
+                </button>
+
+                <div class="top-profile">
+                    <div class="admin-avatar small-avatar">A</div>
+                    <div>
+                        <h4 id="topAdminName">Administrator</h4>
+                        <p>System Administrator</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- OVERVIEW -->
+        <section id="overview" class="page-section">
+
+            <div class="welcome-banner">
+                <div>
+                    <p class="eyebrow">ADMINISTRATOR CONTROL CENTER</p>
+                    <h1>Welcome back, <span id="welcomeName">Administrator</span>! 👋</h1>
+                    <p>Monitor your platform, manage users and keep learning moving forward.</p>
+                </div>
+
+                <div class="banner-icon">
+                    <i class="fas fa-shield-halved"></i>
+                </div>
+            </div>
+
+            <!-- STATISTICS -->
+            <div class="stats-grid">
+
+                <div class="stat-card purple-card">
+                    <div class="stat-top">
+                        <div class="stat-icon"><i class="fas fa-users"></i></div>
+                        <span class="stat-label">ACCOUNTS</span>
+                    </div>
+                    <h2 id="totalUsers">0</h2>
+                    <p>Total Registered Users</p>
+                </div>
+
+                <div class="stat-card blue-card">
+                    <div class="stat-top">
+                        <div class="stat-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <span class="stat-label">TEACHERS</span>
+                    </div>
+                    <h2 id="totalTeachers">0</h2>
+                    <p>Registered Teachers</p>
+                </div>
+
+                <div class="stat-card green-card">
+                    <div class="stat-top">
+                        <div class="stat-icon"><i class="fas fa-user-graduate"></i></div>
+                        <span class="stat-label">STUDENTS</span>
+                    </div>
+                    <h2 id="totalStudents">0</h2>
+                    <p>Registered Students</p>
+                </div>
+
+                <div class="stat-card orange-card">
+                    <div class="stat-top">
+                        <div class="stat-icon"><i class="fas fa-book"></i></div>
+                        <span class="stat-label">SUBJECTS</span>
+                    </div>
+                    <h2 id="totalSubjects">0</h2>
+                    <p>Available Subjects</p>
+                </div>
+
+                <div class="stat-card pink-card">
+                    <div class="stat-top">
+                        <div class="stat-icon"><i class="fas fa-circle-question"></i></div>
+                        <span class="stat-label">QUESTIONS</span>
+                    </div>
+                    <h2 id="totalQuestions">0</h2>
+                    <p>Question Bank</p>
+                </div>
+
+                <div class="stat-card cyan-card">
+                    <div class="stat-top">
+                        <div class="stat-icon"><i class="fas fa-gamepad"></i></div>
+                        <span class="stat-label">CHALLENGES</span>
+                    </div>
+                    <h2 id="totalQuizzes">0</h2>
+                    <p>Created Quizzes</p>
+                </div>
+
+            </div>
+
+            <!-- CHARTS -->
+            <div class="content-grid">
+
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Platform Overview</h3>
+                            <p>Registered account distribution</p>
+                        </div>
+                        <span class="status-label">LIVE DATA</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="usersChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Question Distribution</h3>
+                            <p>Question difficulty levels</p>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="questionsChart"></canvas>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- QUICK ACTIONS -->
+            <div class="panel quick-actions-panel">
+                <div class="panel-heading">
+                    <div>
+                        <h3>Administrative Actions</h3>
+                        <p>Frequently used management tools</p>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <button class="quick-action" data-open="userModal">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Add User</span>
+                    </button>
+
+                    <button class="quick-action" data-scroll="subjects">
+                        <i class="fas fa-book"></i>
+                        <span>Manage Subjects</span>
+                    </button>
+
+                    <button class="quick-action" data-scroll="questions">
+                        <i class="fas fa-circle-question"></i>
+                        <span>Question Bank</span>
+                    </button>
+
+                    <button class="quick-action" data-scroll="settings">
+                        <i class="fas fa-gears"></i>
+                        <span>System Settings</span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- USERS -->
+        <section id="users" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>User Management</h2>
+                    <p>Manage platform accounts and roles.</p>
+                </div>
+
+                <button class="primary-button" data-open="userModal">
+                    <i class="fas fa-plus"></i> Add User
+                </button>
+            </div>
+
+            <div class="toolbar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input id="userSearch" placeholder="Search users...">
+                </div>
+
+                <select id="userRoleFilter">
+                    <option value="">All Roles</option>
+                    <option value="admin">Administrator</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                </select>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>USER</th>
+                            <th>EMAIL</th>
+                            <th>ROLE</th>
+                            <th>STATUS</th>
+                            <th>ACTION</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usersTable"></tbody>
+                </table>
+            </div>
+
+            <p class="empty-state hidden" id="usersEmpty">
+                User records will appear when connected to your user database.
+            </p>
+
+        </section>
+
+        <!-- TEACHERS -->
+        <section id="teachers" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Teacher Management</h2>
+                    <p>Oversee teaching accounts.</p>
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>TEACHER</th>
+                            <th>EMAIL</th>
+                            <th>STATUS</th>
+                            <th>ROLE</th>
+                            <th>ACTION</th>
+                        </tr>
+                    </thead>
+                    <tbody id="teachersTable"></tbody>
+                </table>
+            </div>
+
+            <p class="empty-state hidden" id="teachersEmpty">
+                No teacher records available yet.
+            </p>
+
+        </section>
+
+        <!-- STUDENTS -->
+        <section id="students" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Student Management</h2>
+                    <p>Monitor student accounts.</p>
+                </div>
+            </div>
+
+            <div class="toolbar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input id="studentSearch" placeholder="Search students...">
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>STUDENT</th>
+                            <th>EMAIL</th>
+                            <th>STATUS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentsTable"></tbody>
+                </table>
+            </div>
+
+            <p class="empty-state hidden" id="studentsEmpty">
+                No student records available yet.
+            </p>
+
+        </section>
+
+        <!-- SUBJECTS -->
+        <section id="subjects" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Subjects & Courses</h2>
+                    <p>Manage the learning subjects available on the platform.</p>
+                </div>
+
+                <button class="primary-button" data-open="subjectModal">
+                    <i class="fas fa-plus"></i> Add Subject
+                </button>
+            </div>
+
+            <div class="toolbar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input id="subjectSearch" placeholder="Search subjects...">
+                </div>
+            </div>
+
+            <div class="subjects-grid" id="subjectsGrid"></div>
+
+            <p class="empty-state hidden" id="subjectsEmpty">
+                No subjects found.
+            </p>
+
+        </section>
+
+        <!-- QUESTIONS -->
+        <section id="questions" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Question Bank Management</h2>
+                    <p>Monitor the platform's question collection.</p>
+                </div>
+            </div>
+
+            <div class="toolbar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input id="questionSearch" placeholder="Search questions...">
+                </div>
+
+                <select id="questionDifficulty">
+                    <option value="">All Difficulties</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>QUESTION</th>
+                            <th>SUBJECT</th>
+                            <th>DIFFICULTY</th>
+                            <th>ANSWER</th>
+                        </tr>
+                    </thead>
+                    <tbody id="questionsTable"></tbody>
+                </table>
+            </div>
+
+            <p class="empty-state hidden" id="questionsEmpty">
+                No questions available.
+            </p>
+
+        </section>
+
+        <!-- QUIZZES -->
+        <section id="quizzes" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Quiz Management</h2>
+                    <p>Overview of teacher-created challenges.</p>
+                </div>
+            </div>
+
+            <div class="quiz-grid" id="quizGrid"></div>
+
+            <p class="empty-state hidden" id="quizzesEmpty">
+                No quiz records available yet.
+            </p>
+
+        </section>
+
+        <!-- ANALYTICS -->
+        <section id="analytics" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Platform Analytics</h2>
+                    <p>Review available platform statistics.</p>
+                </div>
+            </div>
+
+            <div class="content-grid">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Account Overview</h3>
+                            <p>Teachers and students</p>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="analyticsUsersChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Question Difficulty</h3>
+                            <p>Available question levels</p>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="analyticsQuestionsChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ACTIVITY -->
+        <section id="activity" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Activity Logs</h2>
+                    <p>Review administrative actions in this browser.</p>
+                </div>
+
+                <button class="secondary-button" id="clearActivity">
+                    <i class="fas fa-trash"></i> Clear Logs
+                </button>
+            </div>
+
+            <div class="activity-list" id="activityList"></div>
+
+            <p class="empty-state hidden" id="activityEmpty">
+                No activity has been recorded yet.
+            </p>
+
+        </section>
+
+        <!-- SETTINGS -->
+        <section id="settings" class="page-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>System Settings</h2>
+                    <p>Configure your administrator workspace.</p>
+                </div>
+            </div>
+
+            <div class="panel settings-panel">
+
+                <h3>Administrator Profile</h3>
+
+                <form id="settingsForm">
+
+                    <label>Administrator Name</label>
+                    <input id="settingsName" required>
+
+                    <label>Email Address</label>
+                    <input id="settingsEmail" type="email">
+
+                    <button class="primary-button">Save Profile</button>
+
+                </form>
+
+                <div class="settings-divider"></div>
+
+                <h3>Platform Information</h3>
+
+                <div class="system-info">
+                    <div>
+                        <span>Application</span>
+                        <strong>Figure It Out</strong>
+                    </div>
+
+                    <div>
+                        <span>Dashboard Version</span>
+                        <strong>1.0.0</strong>
+                    </div>
+
+                    <div>
+                        <span>Environment</span>
+                        <strong>Development</strong>
+                    </div>
+
+                    <div>
+                        <span>Server</span>
+                        <strong id="serverStatus">Checking...</strong>
+                    </div>
+                </div>
+
+                <button class="secondary-button" id="checkServer">
+                    <i class="fas fa-rotate"></i> Check Server
+                </button>
+
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            © 2026 FIGURE IT OUT. Administrator Control Center.
+        </footer>
+
+    </main>
+</div>
+
+<!-- ADD USER MODAL -->
+<div class="modal" id="userModal">
+    <div class="modal-content">
+
+        <button class="modal-close" data-close="userModal">&times;</button>
+
+        <h2>Add User</h2>
+        <p>Prepare a new platform account.</p>
+
+        <form id="userForm">
+
+            <label>Full Name</label>
+            <input id="newUserName" placeholder="Enter full name" required>
+
+            <label>Email Address</label>
+            <input id="newUserEmail" type="email" placeholder="Enter email" required>
+
+            <label>Account Role</label>
+            <select id="newUserRole">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="admin">Administrator</option>
+            </select>
+
+            <button class="primary-button full-button">Prepare Account</button>
+
+        </form>
+    </div>
+</div>
+
+<!-- ADD SUBJECT MODAL -->
+<div class="modal" id="subjectModal">
+    <div class="modal-content">
+
+        <button class="modal-close" data-close="subjectModal">&times;</button>
+
+        <h2>Add Subject</h2>
+        <p>Prepare a new learning subject.</p>
+
+        <form id="subjectForm">
+
+            <label>Subject Name</label>
+            <input id="newSubjectName" placeholder="e.g. Mathematics" required>
+
+            <button class="primary-button full-button">Add Subject</button>
+
+        </form>
+    </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="admin.js"></script>
+</body>
+</html>
+```
